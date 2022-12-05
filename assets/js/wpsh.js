@@ -49,9 +49,8 @@ function wpsh_num(el) {
 	elements = [ // Tags to skip
 		"CODE", "HEAD", "INPUT", "OPTION", "PRE", "SCRIPT", "STYLE", "TEXTAREA", "TITLE"
 	];
-	var parent = jQuery(el.parentElement).prop("tagName");
 	var self = jQuery(el).prop("tagName");
-	if (jQuery.inArray(parent, elements) !== -1 || jQuery.inArray(self, elements))
+	if (jQuery.inArray(self, elements) !== -1)
 		return
 	
 	if (el.nodeType == 3) {
