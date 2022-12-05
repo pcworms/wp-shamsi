@@ -9,7 +9,7 @@
  * Requires PHP:      5.5
  * Author:            wpvar.com
  * Author URI:        https://wpvar.com/
- * GitHub Plugin URL: https://github.com/pcworms/wp-shamsi
+ * GitHub Plugin URI: https://github.com/pcworms/wp-shamsi
  * License:           GNU Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       wpsh
